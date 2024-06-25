@@ -1,0 +1,18 @@
+//Renderiza los detalles de una película: título, autor, descripción, imagen...
+doctype html
+html
+  head
+    title= movie.Title
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    .container
+      .movie-details
+        h1= movie.Title
+        img(src=movie.Poster, alt=movie.Title)
+        p
+          strong Director: 
+          | #{movie.Director}
+        p
+          strong Plot: 
+          | #{movie.Plot}
+        a(href="/") Back to Search

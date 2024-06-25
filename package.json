@@ -1,0 +1,29 @@
+{
+  "name": "render_express_pug_25jun",
+  "version": "1.0.0",
+  "description": "Crea una aplicación de películas para hacer server render con Nodejs y Pug. Para ello usa la API de pelis que te proporcionamos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitolez/Render_Express_Pug_25Jun.git#main"
+  },
+  "author": "Nitolez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitolez/Render_Express_Pug_25Jun/issues"
+  },
+  "homepage": "https://github.com/Nitolez/Render_Express_Pug_25Jun/tree/main#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "mongoose-sequence": "^6.0.1",
+    "node": "^20.15.0",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pug": "^3.0.3"
+  }
+}

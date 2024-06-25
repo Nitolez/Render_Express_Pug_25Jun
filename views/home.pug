@@ -1,0 +1,12 @@
+//Renderiza un formulario de búsqueda por título de película
+doctype html
+html
+  head
+    title Movie Search
+    link(rel="stylesheet", href="./css/style.css")
+  body
+    .container
+      h1 Search for a Movie
+      form(action="/film", method="post")
+        input(type="text", name="title", placeholder="Enter movie title")
+        button(type="submit") Search
