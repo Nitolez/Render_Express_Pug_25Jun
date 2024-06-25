@@ -3,14 +3,14 @@
 Crea una aplicación de películas para hacer server render con Nodejs y Pug. Para ello usa la API de pelis que te proporcionamos
 
 
-##OMDB api Templates:
+## OMDB api Templates:
 
 home.pug --> Renderiza un formulario de búsqueda por título de película
 
 film.pug --> Renderiza los detalles de una película: título, autor, descripción, imagen...
 
 
-##Rutas:
+## Rutas:
 
 [GET] http://localhost:3000 Home de la app. Se renderiza home.pug
 
