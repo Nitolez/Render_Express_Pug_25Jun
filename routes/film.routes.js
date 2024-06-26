@@ -8,8 +8,8 @@ router.get('/film/:title', (req, res) => {
 
   http.get(apiUrl, (apiRes) => {
     let data = '';
-    apiRes.on('data', chunk => {
-      data += chunk;
+    apiRes.on('data', peli => {
+      data += peli;
     });
     apiRes.on('end', () => {
       const movie = JSON.parse(data);
